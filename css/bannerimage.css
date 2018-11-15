@@ -388,7 +388,6 @@ text-decoration:none;
 	background: #004a8c;
 	background-image: -moz-linear-gradient(-45deg, #004a8c 0%, #002a5b 41%, #004a8c 100%);
 	background-image: -webkit-linear-gradient(-45deg, #004a8c 0%,#002a5b 41%,#004a8c 100%);
-	background-image: url(/sites/all/themes/aesbs337/images/graphics/section-shadow.png), linear-gradient(135deg, #004a8c 0%,#002a5b 41%,#004a8c 100%);
 	-ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004a8c', endColorstr='#004a8c',GradientType=1 );
 }
 @media screen and (max-width: 767px) {

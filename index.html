@@ -12,6 +12,15 @@
 <link rel="stylesheet" type="text/css" href="css/bannerimage.css">
 <script type="text/javascript" src="js/progress-scroll.js"></script>
 <script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
+<script type="text/javascript">
+(function($){
+  $(document).ready(function() {
+      if(window.location.hash.length > 0) {
+          window.scrollTo(0, $(window.location.hash).offset().top);
+        }
+      });
+  })(jQuery);
+</script>
 </head>
 
   <div class="container-fluid bannercontainer">

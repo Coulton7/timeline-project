@@ -276,127 +276,60 @@ text-decoration:none;
 	background:#ffffff;
 	border-bottom:none;
 }
-
-.cust-portal{
-	/*float:right;*/
-	margin-right:0.6em;
-	/*padding-top:0.6em;*/
-	height:100%;
+#1970{
+	background: #1da1f2;
+  background: -moz-linear-gradient(-45deg, #1da1f2 0%, #5c5f60 84%, #1da1f2 100%);
+  background: -webkit-linear-gradient(-45deg, #1da1f2 0%,#5c5f60 84%,#1da1f2 100%);
+  background: linear-gradient(135deg, #1da1f2 0%,#5c5f60 84%,#1da1f2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1da1f2', endColorstr='#1da1f2',GradientType=1 );
+	height:800px;
+	width:100%;
+	margin-top: 4em;
 }
 
-.cust-portal a{
-	border-bottom:none;
-	color:#ffffff;
+#1980{
+	background: #0077b5;
+  background: -moz-linear-gradient(-45deg, #0077b5 0%, #5c5f60 84%, #0077b5 100%);
+  background: -webkit-linear-gradient(-45deg, #0077b5 0%,#5c5f60 84%,#0077b5 100%);
+  background: linear-gradient(135deg, #0077b5 0%,#5c5f60 84%,#0077b5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0077b5', endColorstr='#0077b5',GradientType=1 );
+	height:500px;
+	width:100%;
+	margin-top: 4em;
 }
 
-.cust-portal a:hover{
-	border-bottom:1px solid #ffffff;
+#1990{
+	background: #d34836;
+  background: -moz-linear-gradient(-45deg, #d34836 0%, #5c5f60 84%, #d34836 100%);
+  background: -webkit-linear-gradient(-45deg, #d34836 0%,#5c5f60 84%,#d34836 100%);
+  background: linear-gradient(135deg, #d34836 0%,#5c5f60 84%,#d34836 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d8e8f', endColorstr='#a6aaad',GradientType=1 );
+	height:750px;
+	width:100%;
+	margin-top: 4em;
 }
 
-.cust-portal-text{
-	vertical-align: super;
+#2000{
+	background: #002a5b;
+  background: -moz-linear-gradient(-45deg, #002a5b 0%, #5c5f60 84%, #002a5b 100%);
+  background: -webkit-linear-gradient(-45deg, #002a5b 0%,#5c5f60 84%,#002a5b 100%);
+  background: linear-gradient(135deg, #002a5b 0%,#5c5f60 84%,#002a5b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002a5b', endColorstr='#002a5b',GradientType=1 );
+	height:900px;
+	width:100%;
+	margin-top: 4em;
 }
 
-.social-id{
-	position:absolute;
-	top:-3.8em;
-	right:5em;
-	z-index:2;
+#2010{
+	background: #d34836;
+  background: -moz-linear-gradient(-45deg, #d34836 0%, #5c5f60 84%, #d34836 100%);
+  background: -webkit-linear-gradient(-45deg, #d34836 0%,#5c5f60 84%,#d34836 100%);
+  background: linear-gradient(135deg, #d34836 0%,#5c5f60 84%,#d34836 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d34836', endColorstr='#d34836',GradientType=1 );
+	height:800px;
+	width:100%;
+	margin-top: 4em;
 }
-
-.fade_text{
-	display:none;
-	color:#ffffff;
-}
-
-.socialmedia{
-	width: 100%;
-	height: 7.57em;
-	background:#ffffff;
-	position:absolute;
-	bottom:0;
-	z-index: 2;
-}
-
-.socialmedia ul{
-	display:flex;
-	justify-content:center;
-	list-style:none;
-	padding-left:0;
-	flex-wrap:wrap;
-	position:absolute;
-	width: 100%;
-	right:1em;
-}
-
-.socialmedia li a{
-	border-bottom:none;
-}
-.socialmedia ul li:nth-child(1) a{
-	color:#1da1f2;
-	margin-right: 0.4em;
-	font-size: 2.5em;
-}
-
-.socialmedia ul li:nth-child(1) a:hover{
-	color:#1a90d9;
-}
-
-.socialmedia ul li:nth-child(2) a{
-	color:#0077b5;
-	margin-right: 0.4em;
-	font-size: 2.5em;
-}
-
-.socialmedia ul li:nth-child(2) a:hover{
-	color:#006ba2;
-}
-
-.socialmedia ul li:nth-child(3) a{
-	color: #d34836;
-	margin-right: 0.4em;
-	font-size: 2.5em;
-}
-
-.socialmedia ul li:nth-child(3) a:hover{
-	color:#bd4030;
-}
-
-.socialmedia ul li:nth-child(4) a{
-	color: #d34836;
-	margin-right: 0.4em;
-	font-size: 2.5em;
-}
-
-.socialmedia ul li:nth-child(4) a:hover{
-	color:#bd4030;
-}
-
-.socialmedia ul li:nth-child(5) a{
-	color: #002a5b;
-	margin-right: 0.4em;
-	font-size: 2.5em;
-}
-
-.socialmedia ul li:nth-child(5) a:hover{
-	color:#004a8c;
-}
-
-.socialmedia ul li:nth-child(6) a{
-	color: #d34836;
-	margin-right: 0.4em;
-	font-size: 2.5em;
-}
-
-.socialmedia ul li:nth-child(6) a:hover{
-	color:#bd4030;
-}
-
-.icons a{
-	border-bottom:none;
-	display: inline-block;
-}
-
 @media screen and (max-width: 767px) {
 	h1{
 		font-size:30px;

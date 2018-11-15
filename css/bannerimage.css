@@ -276,6 +276,20 @@ text-decoration:none;
 	background:#ffffff;
 	border-bottom:none;
 }
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
 #first{
 	background: #1da1f2;
   background: -moz-linear-gradient(-45deg, #1da1f2 0%, #5c5f60 84%, #1da1f2 100%);

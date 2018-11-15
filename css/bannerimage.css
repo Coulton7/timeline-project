@@ -286,7 +286,7 @@ text-decoration:none;
 /* The progress bar (scroll indicator) */
 .progress-bar {
   height: 8px;
-  background: #4caf50;
+  background: #dd1e25;
   width: 0%;
 }
 

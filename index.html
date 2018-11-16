@@ -14,11 +14,10 @@
   <script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
   <script type="text/javascript">
     (function($) {
-      $(document).ready(function() {
-        if (window.location.hash.length > 0) {
-          window.scrollTo(0, $(window.location.hash).offset().top);
-        }
-      });
+      function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
     })(jQuery);
   </script>
 </head>
@@ -28,7 +27,7 @@
     <div class="row waveupper row-eq-height">
       <div class="col-lg-2 col-md-2 col-xs-1 fullscreen">
         <a class="logo navbar-btn pull-left" title="">
-          <img src="Images/textonlylogo.svg" class="textlogo img-adaptive" alt="image responsive" />
+          <img src="Images/textonlylogo.svg" class="textlogo img-adaptive" onclick="topFunction()" alt="image responsive" />
         </a>
       </div>
 

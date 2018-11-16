@@ -13,10 +13,12 @@
   <script type="text/javascript" src="js/progress-scroll.js"></script>
     <script type="text/javascript">
       (function($) {
-      $(a.toTop).click(function() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        })
+        $(a.toTop).click(function() {
+          $('html, body').animate({
+            scrollTop: 0
+          }, 700);
+          return false;
+          })
       })(jQuery);
 </script>
   <script type="text/javascript" src="js/modernizr.custom.26633.js"></script>

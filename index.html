@@ -11,16 +11,21 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/bannerimage.css">
   <script type="text/javascript" src="js/progress-scroll.js"></script>
-    <script type="text/javascript">
-      (function($) {
-        $(a.toTop).click(function() {
+  <script type="text/javascript">
+    (function($) {
+      $(a.toTop).click(function() {
+        $('html, body').animate({
+          scrollTop: 0
+        }, 100);
+        })
+        $('.nav-link').click(function(){
+          var divId = $(this).attr('href');
           $('html, body').animate({
-            scrollTop: 0
-          }, 700);
-          return false;
-          })
+            scrollTop: $(divId).offset().top - 54
+          }, 100);
+        });
       })(jQuery);
-</script>
+  </script>
   <script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
 </head>
 
@@ -44,15 +49,15 @@
             <div class="container-fluid navbar-container">
               <nav role="navigation">
                 <ul class="menu nav navbar-nav">
-                  <li><a href="#first">1980</a></li>
-                  <li><a href="#content-block">1985</a></li>
-                  <li><a href="#second">1990</a></li>
-                  <li><a href=#content-blockthin>1995</a></li>
-                  <li><a href="#third">2000</a></li>
-                  <li><a href=#content-blockthick>2005</a></li>
-                  <li><a href="#fourth">2010</a></li>
-                  <li><a href="#blue-graident">2015</a></li>
-                  <li><a href="#fifth">Current</a></li>
+                  <li><a class="nav-link" href="#first">1980</a></li>
+                  <li><a class="nav-link" href="#content-block">1985</a></li>
+                  <li><a class="nav-link" href="#second">1990</a></li>
+                  <li><a class="nav-link" href=#content-blockthin>1995</a></li>
+                  <li><a class="nav-link" href="#third">2000</a></li>
+                  <li><a class="nav-link" href=#content-blockthick>2005</a></li>
+                  <li><a class="nav-link" href="#fourth">2010</a></li>
+                  <li><a class="nav-link" href="#blue-graident">2015</a></li>
+                  <li><a class="nav-link" href="#fifth">Current</a></li>
                 </ul>
               </nav>
             </div>

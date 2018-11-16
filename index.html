@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,14 +17,14 @@
         $('html, body').animate({
           scrollTop: 0
         }, 100);
-        })
-        $('.nav-link').click(function(){
-          var divId = $(this).attr('href');
-          $('html, body').animate({
-            scrollTop: $(divId).offset().top - 54
-          }, 100);
-        });
-      })(jQuery);
+      })
+      $('.nav-link').click(function() {
+        var divId = $(this).attr('href');
+        $('html, body').animate({
+          scrollTop: $(divId).offset().top - 54
+        }, 100);
+      });
+    })(jQuery);
   </script>
   <script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
 </head>
@@ -97,4 +98,5 @@
     </div>
   </div>
 </footer>
+
 </html>

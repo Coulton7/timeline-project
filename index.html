@@ -11,7 +11,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/bannerimage.css">
   <script type="text/javascript" src="js/progress-scroll.js"></script>
-    <script type="text/javascript" src="js/topFunction.js"></script>
+    <script type="text/javascript">
+      (function($) {
+      $(a.toTop).click(function() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        })
+      })(jQuery);
+</script>
   <script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
 </head>
 
@@ -19,9 +26,9 @@
   <div class="row bannerimage">
     <div class="row waveupper row-eq-height">
       <div class="col-lg-2 col-md-2 col-xs-1 fullscreen">
-        <button class="logo navbar-btn pull-left" onclick="topFunction()" title="">
+        <a class="logo navbar-btn toTop pull-left" title="">
           <img src="Images/textonlylogo.svg" class="textlogo img-adaptive" alt="image responsive" />
-        </button>
+        </a>
       </div>
 
 

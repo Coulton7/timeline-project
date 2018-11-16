@@ -12,7 +12,7 @@
   <link rel="stylesheet" type="text/css" href="css/bannerimage.css">
   <script type="text/javascript" src="js/progress-scroll.js"></script>
   <script type="text/javascript">
-    (function($) {
+    jQuery(document).ready(function() {
       $(a.toTop).click(function() {
         $('html, body').animate({
           scrollTop: 0
@@ -24,7 +24,7 @@
           scrollTop: $(divId).offset().top - 54
         }, 100);
       });
-    })(jQuery);
+    });
   </script>
   <script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
 </head>

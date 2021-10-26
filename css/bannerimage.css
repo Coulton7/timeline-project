@@ -450,7 +450,8 @@ p a[target="_blank"]:after {
 }
 
 .timeline-body>p,
-.timeline-body>ul {
+.timeline-body>ul,
+.timeline-body>h3 {
   padding: 20px;
   margin-bottom: 0;
 }

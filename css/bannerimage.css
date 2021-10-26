@@ -483,6 +483,19 @@ text-decoration:none;
   margin-right: 0;
 }
 
+.timeline > li.timeline-inverted{
+  float: right;
+  clear: right;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.timeline > li:nth-child(2){
+  margin-top: 60px;
+}
+.timeline > li.timeline-inverted > .timeline-badge{
+  left: -12px;
+}
+
 @media screen and (max-width: 767px) {
 	h1{
 		font-size:30px;

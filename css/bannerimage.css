@@ -405,14 +405,7 @@ p a[target="_blank"]:after {
   position: absolute;
   top: 19px;
   right: -12px;
-  /*background-color: #999999;*/
   z-index: 100;
-  /*
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  */
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {

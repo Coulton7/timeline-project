@@ -129,10 +129,7 @@ p a[target="_blank"]:after {
 }
 
 .flex-header {
-  padding-left: 0.5em;
-  color: #dd1e25;
-  bottom: 2em;
-  position: absolute;
+  color:#ffffff;
 }
 
 .flex-caption {

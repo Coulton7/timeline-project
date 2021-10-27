@@ -310,6 +310,12 @@ p a[target="_blank"]:after {
   padding: 10px 5px 10px 5px;
 }
 
+.midgrey-background {
+  background: #B5B6B9;
+  color: #FFFFFF;
+  padding: 10px 15px;
+}
+
 .footer {
   padding-top: 0px;
   padding-bottom: 0px;

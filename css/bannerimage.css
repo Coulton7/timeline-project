@@ -349,6 +349,12 @@ p a[target="_blank"]:after {
   background-position: top center;
 }
 
+.page-header {
+  color: #B5B6B9;
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
+
 .flex-gradient {
   overflow: initial;
   height: 100%;

@@ -355,6 +355,12 @@ p a[target="_blank"]:after {
   padding-top: 20px;
 }
 
+.flex-header{
+  color: #ffffff;
+  text-align: left;
+  border-bottom: none;
+}
+
 .flex-gradient {
   overflow: initial;
   height: 100%;

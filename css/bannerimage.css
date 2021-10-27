@@ -659,10 +659,6 @@ p a[target="_blank"]:after {
   color: inherit;
 }
 
-.timeline-heading {
-  display: none;
-}
-
 .timeline-body>p,
 .timeline-body>ul,
 .timeline-body>h3 {

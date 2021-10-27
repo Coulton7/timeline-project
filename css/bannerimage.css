@@ -48,6 +48,18 @@ a.white-text:hover{
   align-self: flex-end;
 }
 
+.footer-social-icons {
+  font-size: 2.5em;
+  position: relative;
+  z-index: 10;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.fade-50{
+  opacity: 0.5;
+}
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;

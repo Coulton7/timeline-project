@@ -797,6 +797,11 @@ p a[target="_blank"]:after {
     margin-top: 10px;
   }
 
+  .flex-header h1 {
+    font-size: 3em;
+    line-height: 52px;
+  }
+
   h1 {
     font-size: 31px;
     line-height: 50px;
@@ -852,6 +857,12 @@ p a[target="_blank"]:after {
 
 /* md */
 @media screen and (min-width: 992px) {
+
+  .flex-header h1 {
+    font-size: 1.1em;
+    line-height: 58px;
+  }
+
   .navbar-default {
     background: none;
     border: none;
@@ -941,6 +952,12 @@ p a[target="_blank"]:after {
 
 /* lg */
 @media screen and (min-width: 1200px) {
+
+  .flex-header h1 {
+    font-size: 1.1em;
+    line-height: 63px;
+  }
+
   .banner-title {
     font-size: 51px;
     line-height: 82px;

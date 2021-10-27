@@ -360,6 +360,14 @@ p a[target="_blank"]:after {
   padding: 10px 15px;
 }
 
+.padding-top-2em{
+  padding-top: 2em;
+}
+
+.margin-top-2em{
+  margin-top: 2em;
+}
+
 .footer {
   padding-top: 0px;
   padding-bottom: 0px;

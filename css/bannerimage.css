@@ -360,6 +360,12 @@ p a[target="_blank"]:after {
   padding: 10px 15px;
 }
 
+.blue-background {
+  background: #002A5B;
+  color: #FFFFFF;
+  padding: 1em 0.5em 1em 0.5em;
+}
+
 .padding-top-2em{
   padding-top: 2em;
 }

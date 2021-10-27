@@ -367,6 +367,13 @@ p a[target="_blank"]:after {
 .margin-top-2em{
   margin-top: 2em;
 }
+.footer-curve {
+  width: 100%;
+  right: -1.6em;
+  position: relative;
+  bottom: 0;
+  margin-top: -7.2em;
+}
 
 .footer {
   padding-top: 0px;

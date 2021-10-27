@@ -675,6 +675,10 @@ p a[target="_blank"]:after {
   background-color: #f4f4f4;
 }
 
+.timeline-footer i{
+  padding-right: 0.5em
+}
+
 .timeline-footer>a {
   cursor: pointer;
   text-decoration: none;

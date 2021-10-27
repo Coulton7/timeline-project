@@ -398,6 +398,7 @@ p a[target="_blank"]:after {
 .iceberg-footer-banner {
   margin-bottom: -4.5em;
   display: inline-block;
+  z-index: 10;
 }
 
 .socialmedia {

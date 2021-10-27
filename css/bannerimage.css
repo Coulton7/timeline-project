@@ -44,6 +44,10 @@ a.white-text:hover{
   z-index: 10;
 }
 
+.flex-item-bottom {
+  align-self: flex-end;
+}
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;

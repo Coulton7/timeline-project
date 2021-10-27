@@ -783,6 +783,16 @@ p a[target="_blank"]:after {
     text-align: left;
   }
 
+  .socialmedia ul li {
+      width: 18%;
+      text-align: center;
+      transform: translate(25%);
+    }
+
+    .socialmedia ul {
+      margin-top: 0.5em
+    }
+
   ul {
     list-style-type: none;
     overflow: hidden;
@@ -914,6 +924,11 @@ p a[target="_blank"]:after {
     background-color: #ffffff;
     padding-left: 0em;
   }
+
+  .socialmedia ul {
+    top: 15%;
+    height: 100%;
+  }
 }
 
 /* md */
@@ -994,6 +1009,12 @@ p a[target="_blank"]:after {
   .btn {
     font-size: 17px;
     line-height: 28px;
+  }
+
+  .socialmedia ul {
+    transform: translateY(-40%);
+    top: 50%;
+    height: 75%;
   }
 
   ul {

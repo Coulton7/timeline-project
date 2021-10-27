@@ -27,7 +27,8 @@ $(document).ready(function(){
 (function($){
   $(document).ready(function() {
     $('[data-toggle="tooltip"]').tooltip({
-      trigger: 'hover'
+      trigger: 'hover',
+      container: 'body'
     });
   });
 })(jQuery);

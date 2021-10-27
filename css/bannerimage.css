@@ -24,6 +24,26 @@ a.white-text:hover{
   color: #e7e7e7;
 }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.footer-logos a:hover {
+  border-bottom: none;
+}
+
+.footer-logos{
+  position: relative;
+  z-index: 10;
+}
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;

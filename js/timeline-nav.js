@@ -1,8 +1,8 @@
 (function($) {
   var next = 1;
   var prev = 0;
-  var nextPoint = document.getElementById('next').getAttribute('href');
-  var prevPoint = document.getElementById('prev').getAttribute('href');
+  var nextPoint = $('#next').getAttribute('href');
+  var prevPoint = $('#prev').getAttribute('href');
 
   document.getElementById('next').onclick = function() {
     if (next != 29) {

@@ -31,4 +31,14 @@ $(document).ready(function(){
       container: 'body'
     });
   });
+
+  $(document).ready(function() {
+    $('.nav-link').click(function() {
+      var divId = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(divId).offset().top - 100
+      }, 1000);
+    });
+  });
+
 })(jQuery);

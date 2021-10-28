@@ -1,12 +1,11 @@
 (function($) {
   var next = 1;
   var prev = 0;
-
-
+  var nextPoint = $('#next').attr('href');
+  var prevPoint = $('#prev').attr('href');
 
   $(document).ready(function() {
     document.getElementById('next').onclick = function() {
-      var nextPoint = $('#next').attr('href');
       if (next != 29) {
         next++;
       }
@@ -22,7 +21,6 @@
     };
 
     document.getElementById('prev').onclick = function() {
-      var prevPoint = $('#prev').attr('href');
       if (next != 1) {
         next--;
       }

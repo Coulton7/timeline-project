@@ -698,10 +698,6 @@ p a[target="_blank"]:after {
   clear: both;
 }
 
-.timeline>li:nth-child(2) {
-  margin-top: 60px;
-}
-
 .timeline>li.timeline-inverted>.timeline-badge {
   left: -12px;
 }

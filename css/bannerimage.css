@@ -1114,6 +1114,10 @@ p a[target="_blank"]:after {
     padding-left: 11em;
   }
 
+  .front__flex-margin {
+    margin: 2em 0 0 0;
+}
+
   .socialmedia ul {
     top: 15%;
     height: 100%;

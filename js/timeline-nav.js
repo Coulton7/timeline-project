@@ -1,5 +1,5 @@
 (function($) {
-  var stickyTop = 0;
+  var stickyRight = 0;
   var scrollTarget = false;
 
   var timeline_nav = $('.navbar-nav');
@@ -15,13 +15,13 @@
   $(window).resize(function() {
     timeline_nav.removeClass('fixed');
 
-    stickyright = timeline_nav.offset().right - offsetRight;
+    stickyRight = timeline_nav.offset().left - offsetRight;
 
     $(window).trigger('scroll');
   }).trigger('resize');
 
   $(window).scroll(function() {
-    if ($(window).scrollright() > stickyright) {
+    if ($(window).scrollRight() > stickyRight) {
       timeline_nav.addClass('fixed');
     } else {
       timeline_nav.removeClass('fixed');

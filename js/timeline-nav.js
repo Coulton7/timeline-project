@@ -15,7 +15,7 @@
     document.getElementById('prev').setAttribute("href", prev);
 
     $('html, body').animate({
-      scrollTop: $(nextPoint).offset().top - 100
+      scrollTop: $(nextPoint).offset().top - 200
     }, 1000);
   };
 
@@ -29,7 +29,7 @@
     document.getElementById('next').setAttribute("href", next);
     document.getElementById('prev').setAttribute("href", prev);
     $('html, body').animate({
-      scrollTop: $(prevPoint).offset().top - 100
+      scrollTop: $(prevPoint).offset().top - 200
     }, 1000);
   };
 

@@ -12,8 +12,8 @@
       if (prev != 28) {
         prev++;
       }
-      document.getElementById('next').setAttribute("href", next);
-      document.getElementById('prev').setAttribute("href", prev);
+      document.getElementById('next').setAttribute("href", "#" + next);
+      document.getElementById('prev').setAttribute("href", "#" + prev);
 
       $('html, body').animate({
         scrollTop: $(nextPoint).offset().top - 200
@@ -27,8 +27,8 @@
       if (prev != 0) {
         prev--;
       }
-      document.getElementById('next').setAttribute("href", next);
-      document.getElementById('prev').setAttribute("href", prev);
+      document.getElementById('next').setAttribute("href", "#" + next);
+      document.getElementById('prev').setAttribute("href", "#" + prev);
       $('html, body').animate({
         scrollTop: $(prevPoint).offset().top - 200
       }, 1000);

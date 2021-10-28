@@ -1,11 +1,11 @@
 (function($) {
-  var stickyRight = 0;
+  var stickyLeft = 0;
   var scrollTarget = false;
 
   var timeline_nav = $('.navbar-nav');
   var items = $('li', timeline_nav);
   var milestones = $('.timeline li');
-  var offsetRight = parseInt(timeline_nav.css('right'));
+  var offsetLeft = parseInt(timeline_nav.css('left'));
 
   var TIMELINE_VALUES = {
     start: 190,
@@ -15,13 +15,13 @@
   $(window).resize(function() {
     timeline_nav.removeClass('fixed');
 
-    stickyRight = timeline_nav.offset().left - offsetRight;
+    stickyLeft = timeline_nav.offset().left - offsetLeft;
 
     $(window).trigger('scroll');
   }).trigger('resize');
 
   $(window).scroll(function() {
-    if ($(window).scrollRight() > stickyRight) {
+    if ($(window).scrollleft() > stickyLeft) {
       timeline_nav.addClass('fixed');
     } else {
       timeline_nav.removeClass('fixed');
@@ -65,7 +65,7 @@
       active = scrollTarget;
     }
 
-    timeline_nav.css('right', -1 * active * TIMELINE_VALUES.step + TIMELINE_VALUES.start + 'px');
+    timeline_nav.css('left', -1 * active * TIMELINE_VALUES.step + TIMELINE_VALUES.start + 'px');
 
     items.filter('.active').removeClass('active');
 

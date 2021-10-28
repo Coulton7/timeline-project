@@ -971,6 +971,9 @@ p a[target="_blank"]:after {
     position: absolute;
   }
 
+  .curve-down{
+    display: none;
+
   ul {
     list-style-type: none;
     overflow: hidden;

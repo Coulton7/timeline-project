@@ -842,6 +842,10 @@ p a[target="_blank"]:after {
     width: 9.75em !important;
   }
 
+  .navbar-toggle{
+    padding: 5px 10px;
+  }
+
   .socialmedia {
     background-color: transparent;
     position: initial;

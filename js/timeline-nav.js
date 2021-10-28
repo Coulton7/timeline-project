@@ -14,10 +14,6 @@
       }
       document.getElementById('next').setAttribute("href", "#" + next);
       document.getElementById('prev').setAttribute("href", "#" + prev);
-
-      $('html, body').animate({
-        scrollTop: $(nextPoint).offset().top - 200
-      }, 1000);
     };
 
     document.getElementById('prev').onclick = function() {
@@ -29,9 +25,6 @@
       }
       document.getElementById('next').setAttribute("href", "#" + next);
       document.getElementById('prev').setAttribute("href", "#" + prev);
-      $('html, body').animate({
-        scrollTop: $(prevPoint).offset().top - 200
-      }, 1000);
     };
   });
 

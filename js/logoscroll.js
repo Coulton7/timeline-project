@@ -9,7 +9,7 @@
         if (windowScrollTop <= windowHeight) {
           var scrollPercent = windowScrollTop / windowHeight;
 
-          self.find('.textlogo, .section-shadow-menu, .enquiry-icon').css({
+          self.find('.textlogo, .prev-icon').css({
             opacity: -1.03 + scrollPercent * 4.5
           });
 

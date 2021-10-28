@@ -5,7 +5,7 @@
   var timeline_nav = $('.timeline-nav');
   var items = $('li', timeline_nav);
   var milestones = $('.timeline li');
-  var offsetTop = parseInt(timeline_nav.css('top'));
+  var offsetLeft = parseInt(timeline_nav.css('left'));
 
   var TIMELINE_VALUES = {
     start: 190,
@@ -15,13 +15,13 @@
   $(window).resize(function() {
     timeline_nav.removeClass('fixed');
 
-    stickyTop = timeline_nav.offset().top - offsetTop;
+    stickyLeft = timeline_nav.offset().left - offsetLeft;
 
     $(window).trigger('scroll');
   }).trigger('resize');
 
   $(window).scroll(function() {
-    if ($(window).scrollTop() > stickyTop) {
+    if ($(window).scrollLeft() > stickyLeft) {
       timeline_nav.addClass('fixed');
     } else {
       timeline_nav.removeClass('fixed');
@@ -65,7 +65,7 @@
       active = scrollTarget;
     }
 
-    timeline_nav.css('top', -1 * active * TIMELINE_VALUES.step + TIMELINE_VALUES.start + 'px');
+    timeline_nav.css('left', -1 * active * TIMELINE_VALUES.step + TIMELINE_VALUES.start + 'px');
 
     items.filter('.active').removeClass('active');
 

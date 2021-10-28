@@ -642,7 +642,7 @@ p a[target="_blank"]:after {
   height: 3.5em;
   background-color: #dd1e25;
   position: fixed;
-  bottom: 5em;
+  bottom: 1em;
   right: 1em;
   z-index: 1032;
   text-align: center;

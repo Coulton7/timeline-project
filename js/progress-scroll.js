@@ -15,10 +15,10 @@ $(document).ready(function(){
 		the_post = $(my_posts[i]);
 
 		if(the_post.hasClass('invert') && size >=767 ){
-			the_post.tooltip({ placement: 'left'});
+			the_post.tooltip({ placement: 'left', container:'body'});
 			the_post.css("cursor","pointer");
 		}else{
-			the_post.tooltip({ placement: 'rigth'});
+			the_post.tooltip({ placement: 'right', container:'body'});
 			the_post.css("cursor","pointer");
 		}
 	}

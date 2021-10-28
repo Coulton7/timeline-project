@@ -293,16 +293,6 @@ p a[target="_blank"]:after {
   top: 2.95em;
 }
 
-.curve-down {
-  width: 8em;
-  height: 6.3em;
-  right: 6.5em;
-  position: relative;
-  bottom: -0.2em;
-  margin-top: -7.9em;
-  z-index: 2;
-}
-
 .navigation {
   float: none;
   margin: 0 auto;

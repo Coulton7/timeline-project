@@ -1109,12 +1109,17 @@ p a[target="_blank"]:after {
   }
 }
 
-  @media (max-width: 992px) {
-    .logo img {
-      display: none;
-    }
-
-    .logo {
-      display: none;
-    }
+@media (max-width: 992px) {
+  
+  .wavelogo img {
+    display: none;
   }
+
+  .wavelogo {
+    display: none;
+  }
+
+  .uppercurve {
+    display: none;
+  }
+}

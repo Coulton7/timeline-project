@@ -837,6 +837,11 @@ p a[target="_blank"]:after {
     margin: 2em 0 0 0;
   }
 
+  .textlogo {
+    top: 0.3em;
+    width: 9.75em !important;
+  }
+
   .socialmedia {
     background-color: transparent;
     position: initial;

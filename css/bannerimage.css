@@ -128,6 +128,12 @@ p a[target="_blank"]:after {
   display: none;
 }
 
+.lead {
+  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Arial", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", sans-serif;
+  font-weight: 300;
+  color: #002A5B;
+}
+
 .flexslider .slides>li:first-child {
   display: block;
   -webkit-backface-visibility: visible;

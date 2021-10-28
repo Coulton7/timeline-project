@@ -837,6 +837,14 @@ p a[target="_blank"]:after {
     margin: 2em 0 0 0;
   }
 
+  .socialmedia {
+    background-color: transparent;
+    position: initial;
+    right: 0;
+    width: 100%;
+    bottom: inherit;
+}
+
   .slide-caption {
     font-size: 30px;
     font-weight: 600;

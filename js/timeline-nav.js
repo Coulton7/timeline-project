@@ -1,6 +1,8 @@
 (function($) {
   var next = 1;
   var prev = 0;
+  var nextPoint = document.getElementById('next').attr('href');
+  var prevPoint = document.getElementById('prev').attr('href');
 
   document.getElementById('next').onclick = function() {
     if (next != 29) {
@@ -11,6 +13,10 @@
     }
     document.getElementById('next').setsetAttribute("href", next);
     document.getElementById('prev').setsetAttribute("href", prev);
+
+    $('html, body').animate({
+      scrollTop: $(nextPoint).offset().top - 100
+    }, 1000);
   };
 
   document.getElementById('prev').onclick = function() {
@@ -22,6 +28,9 @@
     }
     document.getElementById('next').setsetAttribute("href", next);
     document.getElementById('prev').setsetAttribute("href", prev);
+    $('html, body').animate({
+      scrollTop: $(prevPoint).offset().top - 100
+    }, 1000);
   };
 
 })(jQuery);

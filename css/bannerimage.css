@@ -546,11 +546,10 @@ p a[target="_blank"]:after {
 }
 
 .timeline>li {
-  margin-bottom: 30px;
   position: relative;
   width: 50%;
   float: left;
-  clear: left;
+  clear: both;
 }
 
 .timeline>li:before,
@@ -696,9 +695,7 @@ p a[target="_blank"]:after {
 
 .timeline>li.timeline-inverted {
   float: right;
-  clear: right;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  clear: both;
 }
 
 .timeline>li:nth-child(2) {

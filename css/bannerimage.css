@@ -1110,6 +1110,10 @@ p a[target="_blank"]:after {
     padding-left: 0em;
   }
 
+  .navbar-nav {
+    padding-left: 11em;
+  }
+
   .socialmedia ul {
     top: 15%;
     height: 100%;

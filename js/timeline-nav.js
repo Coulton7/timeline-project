@@ -4,7 +4,7 @@
 
   var timeline_nav = $('.timeline-nav');
   var items = $('li', timeline_nav);
-  var milestones = $('.timeline-badge a').atrr("id");
+  var milestones = $('.timeline-badge');
   var offsetTop = parseInt(timeline_nav.css('top'));
 
   var TIMELINE_VALUES = {
@@ -21,7 +21,7 @@
   }).trigger('resize');
 
   $(window).scroll(function() {
-    if ($(window).scrolltop() > stickyTop) {
+    if ($(window).scrollTop() > stickyTop) {
       timeline_nav.addClass('fixed');
     } else {
       timeline_nav.removeClass('fixed');

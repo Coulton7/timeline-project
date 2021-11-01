@@ -6,9 +6,10 @@
   var items = $('li', timeline_nav);
   var milestones = $('.timeline-badge');
   var offsetTop = parseInt(timeline_nav.css('top'));
+  var windowScreen = $(window);
 
   var TIMELINE_VALUES = {
-    start: 50,
+    start: 90,
     step: 30
   };
 
@@ -36,7 +37,7 @@
     if (!li.hasClass('active') && milestone.length) {
       scrollTarget = index;
 
-      var scrollTargetTop = milestone.offset().top - 80;
+      var scrollTargetTop = milestone.offset().top - 150;
 
       $('html, body').animate({
         scrollTop: scrollTargetTop
@@ -65,7 +66,13 @@
       active = scrollTarget;
     }
 
-    timeline_nav.css('top', -1 * active * TIMELINE_VALUES.step + TIMELINE_VALUES.start + 'px');
+    if(windowScreen.scrollTop() >= $('.socialmedia').offset().top){
+      timeline_nav.css('top', -1 * active * TIMELINE_VALUES.step + TIMELINE_VALUES.start + 'px');
+    };
+
+    if(windowScreen.scrollTop() < $('.socialmedia').offset().top){
+      timeline_nav.css('top', '350px');
+    };
 
     items.filter('.active').removeClass('active');
 

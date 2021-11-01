@@ -5,7 +5,7 @@
   var timeline_nav = $('.timeline-nav');
   var items = $('li', timeline_nav);
   var milestones = $('.timeline-badge a').atrr("id");
-  var offsettop = parseInt(timeline_nav.css('top'));
+  var offsetTop = parseInt(timeline_nav.css('top'));
 
   var TIMELINE_VALUES = {
     start: 50,
@@ -15,7 +15,7 @@
   $(window).resize(function() {
     timeline_nav.removeClass('fixed');
 
-    stickyTop = timeline_nav.offset().top - offsettop;
+    stickyTop = timeline_nav.offset().top - offsetTop;
 
     $(window).trigger('scroll');
   }).trigger('resize');

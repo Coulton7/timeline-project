@@ -4,7 +4,7 @@
 
   var timeline_nav = $('.timeline-nav');
   var items = $('li', timeline_nav);
-  var milestones = $('.timeline li');
+  var milestones = $('.timeline-badge a').atrr("id");
   var offsettop = parseInt(timeline_nav.css('top'));
 
   var TIMELINE_VALUES = {

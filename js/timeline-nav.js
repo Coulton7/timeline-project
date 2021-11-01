@@ -1,27 +1,27 @@
 (function($) {
-  var stickyLeft = 0;
+  var stickyTop = 0;
   var scrollTarget = false;
 
   var timeline_nav = $('.navbar-nav');
   var items = $('li', timeline_nav);
   var milestones = $('.timeline li');
-  var offsetLeft = parseInt(timeline_nav.css('left'));
+  var offsettop = parseInt(timeline_nav.css('top'));
 
   var TIMELINE_VALUES = {
-    start: 190,
+    start: 50,
     step: 30
   };
 
   $(window).resize(function() {
     timeline_nav.removeClass('fixed');
 
-    stickyLeft = timeline_nav.offset().left - offsetLeft;
+    stickyTop = timeline_nav.offset().top - offsettop;
 
     $(window).trigger('scroll');
   }).trigger('resize');
 
   $(window).scroll(function() {
-    if ($(window).scrollleft() > stickyLeft) {
+    if ($(window).scrolltop() > stickyTop) {
       timeline_nav.addClass('fixed');
     } else {
       timeline_nav.removeClass('fixed');
@@ -65,7 +65,7 @@
       active = scrollTarget;
     }
 
-    timeline_nav.css('left', -1 * active * TIMELINE_VALUES.step + TIMELINE_VALUES.start + 'px');
+    timeline_nav.css('top', -1 * active * TIMELINE_VALUES.step + TIMELINE_VALUES.start + 'px');
 
     items.filter('.active').removeClass('active');
 

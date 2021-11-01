@@ -17,6 +17,31 @@ li {
   display: inline-block;
 }
 
+.timeline-nav li{
+  display: block;
+  float: none;
+}
+
+.timeline-nav li span{
+  padding: 0 1em;
+}
+
+.timeline-nav li.active span{
+  color:#dd1e25;
+}
+
+.timeline-nav li span:hover{
+  color: #dd1e25;
+  background-color:#ffffff;
+  padding: 0 1em;
+  cursor: pointer;
+}
+
+.timeline-nav{
+  position:fixed;
+  transition: top .3s ease-out;
+}
+
 a.white-text {
   color: #ffffff;
 }

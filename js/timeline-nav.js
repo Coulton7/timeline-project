@@ -71,7 +71,7 @@
     };
 
     if(windowScreen.scrollTop() < $('.socialmedia').offset().top){
-      timeline_nav.css('top', '425px');
+      timeline_nav.css('top', '30em');
     };
 
     items.filter('.active').removeClass('active');

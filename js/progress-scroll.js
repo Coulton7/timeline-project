@@ -1,4 +1,7 @@
-window.onscroll = function() {myFunction()};
+(function($){
+window.onscroll = function() {
+  myFunction();
+};
 
 function myFunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
@@ -23,6 +26,7 @@ $(document).ready(function(){
 		}
 	}
 });
+})(jQuery);
 
 (function($){
   $(document).ready(function() {

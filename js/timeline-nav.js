@@ -16,7 +16,7 @@
   $(window).resize(function() {
     timeline_nav.removeClass('fixed');
 
-      stickyTop = timeline_nav.offset().top - offsetTop;
+      stickyTop = timeline_nav.offset.top - offsetTop;
 
     $(window).trigger('scroll');
   }).trigger('resize');

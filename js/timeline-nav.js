@@ -2,7 +2,7 @@
   var stickyTop = 0;
   var scrollTarget = false;
 
-  var timeline_nav = $('.timeline-nav');
+  var timeline_nav = $('#timeline-nav');
   var items = $('li', timeline_nav);
   var milestones = $('.timeline-badge');
   var offsetTop = parseInt(timeline_nav.css('top'));

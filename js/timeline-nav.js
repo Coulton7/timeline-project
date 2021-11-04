@@ -68,11 +68,11 @@
 
     if(windowScreen.scrollTop() >= $('.socialmedia').offset().top){
       timeline_nav.css('top', -1 * active * TIMELINE_VALUES.step + TIMELINE_VALUES.start + 'px');
-    };
+    }
 
     if(windowScreen.scrollTop() < $('.socialmedia').offset().top){
       timeline_nav.css('top', '30em');
-    };
+    }
 
     items.filter('.active').removeClass('active');
 

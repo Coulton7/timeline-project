@@ -9,8 +9,8 @@
   var windowScreen = $(window);
 
   var TIMELINE_VALUES = {
-    start: 120,
-    step: 30
+    start: 140,
+    step: 10
   };
 
   $(window).resize(function() {

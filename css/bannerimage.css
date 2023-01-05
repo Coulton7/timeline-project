@@ -1447,6 +1447,14 @@ p a[target="_blank"]:after {
   }
 }
 
+@media screen and (min-width: 2500px) {
+  .sustainability-advert, .rel-logos-wave {
+    position: absolute;
+    top: -15em;
+    display: block;
+  }
+}
+
 @media (max-width: 992px) {
   .wavelogo img {
     display: none;

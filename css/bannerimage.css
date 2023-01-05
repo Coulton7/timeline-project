@@ -868,6 +868,10 @@ p a[target="_blank"]:after {
   left: -12px;
 }
 
+.region-wavelower {
+  position: relative;
+}
+
 .sustainability-advert {
   background-image: url(https://static.aesseal.com/graphics/29-blue-wave-over.svg);
 }

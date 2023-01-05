@@ -1428,7 +1428,7 @@ p a[target="_blank"]:after {
     position: absolute;
     top: -14em;
     right: 0;
-    width: 95%;
+    max-width: 95%;
   }
 }
 
@@ -1437,7 +1437,7 @@ p a[target="_blank"]:after {
     position: absolute;
     top: -13.5em;
     right: 0;
-    width: 80%;
+    max-width: 80%;
   }
 }
 

@@ -885,7 +885,6 @@ p a[target="_blank"]:after {
   z-index: 10;
   right: 5%;
   top: 40%;
-  max-height: 7.57em;
 }
 
 @media screen and (max-width: 767px) {

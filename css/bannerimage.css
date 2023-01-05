@@ -1,6 +1,6 @@
 body {
-  font-size: :14px;
-  line-height: :1.618rem;
+  font-size: 14px;
+  line-height: 1.618rem;
   color: #535454;
   background-color: #efefef;
 }
@@ -12,7 +12,6 @@ p {
 
 /*anything under the p tag colr*/
 li {
-  float: left;
   color: #535454;
   display: inline-block;
 }
@@ -161,6 +160,7 @@ p a[target="_blank"]:after {
 
 .flexslider .slides>li:first-child {
   display: block;
+  backface-visibility: visible;
   -webkit-backface-visibility: visible;
 }
 
@@ -371,7 +371,7 @@ p a[target="_blank"]:after {
   background-image: -moz-linear-gradient(-45deg, #8d8e8f 0%, #5c5f60 42%, #a6aaad 100%);
   background-image: -webkit-linear-gradient(-45deg, #8d8e8f 0%, #5c5f60 42%, #a6aaad 100%);
   background-image: linear-gradient(135deg, #8d8e8f 0%, #5c5f60 42%, #a6aaad 100%);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8d8e8f', endColorstr='#a6aaad', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8d8e8f', endColorstr='#a6aaad', GradientType=1);
   width: 100%;
   color: #ffffff;
   background-repeat: no-repeat;
@@ -483,7 +483,7 @@ p a[target="_blank"]:after {
   background-image: -moz-linear-gradient(-45deg, #002a5b 0%, #193f6b 41%, #002A5B 100%);
   background-image: -webkit-linear-gradient(-45deg, #002a5b 0%, #193f6b 41%, #002A5B 100%);
   background-image: linear-gradient(135deg, #002A5B 0%, #193f6b 41%, #002A5B 100%);
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002a5b', endColorstr='#004a8c', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002a5b', endColorstr='#004a8c', GradientType=1);
   background-attachment: fixed;
   padding-top: 6em;
   padding-bottom: 5em;
@@ -866,6 +866,14 @@ p a[target="_blank"]:after {
 
 .timeline>li.timeline-inverted>.timeline-badge {
   left: -12px;
+}
+
+.sustainability-advert {
+  background-image: url(https://static.aesseal.com/graphics/29-blue-wave-over.svg);
+}
+
+.sustainability-advert:hover img {
+  opacity: 0;
 }
 
 @media screen and (max-width: 767px) {

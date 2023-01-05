@@ -1420,6 +1420,7 @@ p a[target="_blank"]:after {
     top: -14em;
     right: 0;
     max-width: 100%;
+    display: block;
   }
 }
 
@@ -1429,6 +1430,7 @@ p a[target="_blank"]:after {
     top: -14em;
     right: 0;
     max-width: 95%;
+    display: block;
   }
 }
 

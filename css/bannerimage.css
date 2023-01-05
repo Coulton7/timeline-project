@@ -1435,7 +1435,7 @@ p a[target="_blank"]:after {
     position: absolute;
     top: -15.14em;
     right: 0;
-    max-width: 100%;
+    max-width: 95%;
     display: block;
     width: 100%;
   }
@@ -1446,7 +1446,7 @@ p a[target="_blank"]:after {
     position: absolute;
     top: -15.14em;
     right: 0;
-    max-width: 100%;
+    max-width: 95%;
     width: 100%;
     display: block;
   }
@@ -1455,7 +1455,7 @@ p a[target="_blank"]:after {
 @media screen and (min-width: 2500px) {
   .sustainability-advert, .rel-logos-wave {
     position: absolute;
-    width: 85%;
+    width: 100%;
     max-width: 85%;
     top: -15.14em;
     display: block;

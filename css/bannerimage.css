@@ -1324,6 +1324,15 @@ p a[target="_blank"]:after {
     padding-left: 16em;
     overflow-x: auto;
   }
+
+  .sustainability-advert, .rel-logos-wave {
+    position: absolute;
+    top: -15.14em;
+    right: 0;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+  }
 }
 
 /* lg */

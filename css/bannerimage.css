@@ -1445,7 +1445,7 @@ p a[target="_blank"]:after {
     position: absolute;
     top: -15.14em;
     right: 0;
-    max-width: 95%;
+    max-width: 75%;
     width: 100%;
     display: block;
   }

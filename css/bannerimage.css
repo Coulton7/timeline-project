@@ -876,6 +876,13 @@ p a[target="_blank"]:after {
   opacity: 0;
 }
 
+.sustainability-advert, .rel-logos-wave {
+  position: absolute;
+  z-index: 10;
+  right: 5%;
+  top: 40%;
+}
+
 @media screen and (max-width: 767px) {
   .banner-title {
     font-size: 42px;
